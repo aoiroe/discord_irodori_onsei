@@ -18,8 +18,8 @@ import os
 
 API_URL = "http://127.0.0.1:7860/"
 
-REFERENCE_AUDIO = r"C:\Users\81903\Desktop\作成物\irodoriTTS\ffmpeg\reference.wav"
-OUTPUT_DIR = Path(r"C:\Users\81903\Desktop\作成物\irodoriTTS\outputs")
+REFERENCE_AUDIO = r"ここに元になる音声用wavファイル"
+OUTPUT_DIR = Path(r"ここは自分の好きな生成したファイルの場所")
 OUTPUT_DIR.mkdir(exist_ok=True)
 
 CHECKPOINT = "Aratako/Irodori-TTS-500M-v2"
